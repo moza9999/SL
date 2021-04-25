@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
-html {
-	height: 100vh;
-}
 body {
 	background: url(./img/bg.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -10,16 +7,27 @@ body {
 	background-size: cover;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 12px;
+  padding-bottom: 40px;
+
 }
+
 .btns{
-    margin-top: 70%;
 
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-
+.wrapper{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.visitor{
+  display: flex;
+  justify-content: center;
+}
 
 /* General button style */
 .btn {
